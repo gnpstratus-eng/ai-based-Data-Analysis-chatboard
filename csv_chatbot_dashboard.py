@@ -108,15 +108,5 @@ Original file is located at
 #         st.error(f"⚠️ AI response failed: {e}")
 #
 
-from pyngrok import ngrok
-ngrok.kill()  # Purane tunnels close karega
 
-# Replace with your valid token:
-ngrok.set_auth_token("34WsF18wGw7yaxi2jv3l2Etz8r2_3SNMNyMg9CxQLJKweZ6tk")
-
-# Try connecting without options
-public_url = ngrok.connect(8501)
-print("✅ New public URL:", public_url)
-
-!streamlit run app.py --server.port 8501
 
