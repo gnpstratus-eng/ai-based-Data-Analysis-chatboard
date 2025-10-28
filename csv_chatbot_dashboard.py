@@ -7,7 +7,6 @@ Original file is located at
     https://colab.research.google.com/drive/1TQq6CuyvYLQ6U37s2jlmCfN2KP4zxsZ9
 """
 
-!pip install streamlit pyngrok pandas plotly openai
 
 # Commented out IPython magic to ensure Python compatibility.
 # %%writefile app.py
